@@ -20,7 +20,7 @@ RUN rm /bin/sh &&\
     ln -s /bin/bash /bin/sh
 USER ubuntu
 
-RUN mkdir WMAS && cd WMAS && git init && git remote add origin https://github.com/cta-wave/WMAS.git
+RUN mkdir WMAS && cd WMAS && git init && git remote add origin https://github.com/yanj-github/WMAS.git
 WORKDIR WMAS
 
 USER root
